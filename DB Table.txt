@@ -1,0 +1,10 @@
+create table admin(aname varchar(20) primary key NOT NULL,password varchar(10) NOT NULL);
+
+insert into admin values('Atharva','1234');
+insert into admin values('Hemant','9876');
+insert into admin values('Utkarsh','4567');
+
+
+Buyer Table: 
+
+create table buyer(bId int primary key,name varchar(50),contactNo varchar(20),email varchar(50),address text,gender varchar(10));
